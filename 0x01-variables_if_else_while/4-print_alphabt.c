@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - print alphabet except q and e
+ * main - Print alphabet except q and e
  *
- * return: always 0 (sucess)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
