@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (ch != '4' && ch != '16')
+		if (i != '4' && i != '16')
 		{
-			putchar(i);
+			putchar(alp[i]);
 		}
 	}
 	putchar('\n');
