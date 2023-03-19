@@ -2,28 +2,56 @@
 
 #include <time.h>
 
-/*
- * program to assign
- * random number
- * 
-*/
+#include <stdio.h>
+
+
+/**
+
+ * determine the value of n 
+
+ *
+
+ * Exit (sucess)
+
+ */
+
 int main(void)
+
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* conditioning n */
-if (n > 0)
-{
-printf("%d is positive\n", n);
+
+        int n;
+
+
+        srand(time(0));
+
+        n = rand() - RAND_MAX / 2;
+
+        if (n > 0)
+
+        {
+
+                printf("%d is positive\n", n);
+
+        }
+
+        else if (n == 0)
+
+        {
+
+                printf("%d is zero\n", n);
+
+        }
+
+        else
+
+        {
+
+                printf("%d is negative\n", n);
+
+        }
+
+        return (0);
+
 }
-if (n < 0)
-{
-printf("%d is negative\n", n);
-}
-if (n == 0)
-{
-printf("%d is zero\n", n);
-}
-return (0);
-}
+
+
