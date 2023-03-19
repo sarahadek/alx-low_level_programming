@@ -7,19 +7,15 @@
  */
 int main(void)
 {
-	char ch;
-	
-		for (ch = 'a'; ch <= 'z'; ch++;)
-		{
-			 putchar(ch);
-		}
-		while(ch<=z)
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-		if (ch != 'e' && ch != 'q')
+		if (ch != '4' && ch != '16')
 		{
-			putchar(ch);
+			putchar(i);
 		}
-		
 	}
 	putchar('\n');
 	return (0);
