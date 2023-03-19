@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (i != '4' && i != '16')
+		if (i != 'e' && i != 'q')
 		{
 			putchar(alp[i]);
 		}
