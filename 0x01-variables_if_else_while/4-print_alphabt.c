@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print alphabet except q and e
@@ -7,16 +8,15 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 24; i++)
+	
 	{
-		if (i != 'e' && i != 'q')
-		{
-			putchar(alp[i]);
-		}
+		putchar(alp[i]);
 	}
+	
 	putchar('\n');
 	return (0);
 }
