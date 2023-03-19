@@ -3,6 +3,7 @@
 
 /**
  * main - print alphabet except q and e
+ *
  * return: Always 0 (sucess)
  */
 int main(void)
