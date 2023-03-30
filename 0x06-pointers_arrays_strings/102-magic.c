@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - void
- * @a[2]: prints 98
- * Return: Always 0 (Success)
- */
-
 int main(void)
 {
 	int n;
